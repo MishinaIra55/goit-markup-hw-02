@@ -1,0 +1,195 @@
+/*цвет фона nav белый #ffffff */
+/*цвет фона основной светло серый #E5E5E5 */
+/* цвет фона серый #F5F4FA  */
+/* цвет фона темно-серый #2F303A  */
+
+/* цвет текста основного #757575 */
+/* цвет текста вторичного #212121 */
+
+/*акцент #2196F3 */
+/*вторичный цвет */
+
+
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196F3 ;
+   --primary-white-color: #FFFFFF;
+
+}
+
+body {
+   background-color: var(--primary-white-color);
+   color: var(--primary-text-color);
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
+   font-size: 14px;
+   line-height: 1.71;
+}
+
+ul {
+   list-style: none;
+}
+
+
+
+/* style header*/
+
+.logo {
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   text-decoration: none;
+   color: var(--accent-color);
+   
+}
+.accent {
+   color: #000000;
+}
+
+.site-nav a{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+   color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+   color: var(--accent-color);
+}
+
+.site-nav .current {
+   color: var(--accent-color);
+}
+
+.auth-nav .current {
+   color: var(--accent-color);
+}
+
+.auth-nav a {
+   color: #757575;
+   text-decoration: none;
+}
+
+.auth-nav a:hover, 
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+
+/*  style hero*/
+
+.hero-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--primary-white-color);
+}
+
+.hero {
+   background-color: #2F303A;
+}
+
+/* style section*/
+
+.section-title,
+.section-works {
+   font-weight: 700;
+   font-size: 36px;
+   line-height:1.17px;
+   text-align: center;
+   color: var(--title-text-color);
+}
+
+.features .title {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: var(--title-text-color);
+}
+
+ 
+.section-team {
+   background-color: #F5F4FA;
+}
+
+.list {
+   background-color: #FFFFFF;
+}
+
+.title,
+.text-card {
+   font-size: 16px;
+   line-height: 1.19;
+   
+}
+
+/*style  button*/
+ .button {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.9;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   cursor:pointer;
+   color: var(--primary-white-color);
+   background-color: var(--accent-color);
+
+ }
+
+ .features-button {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: center;  
+   color: var(--title-text-color);
+   background-color: #F5F4FA;
+ }
+
+ /* styles portfolio*/
+
+ .section-portfolio {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   color: var(--title-text-color);
+ }
+
+ .text {
+   font-size: 16px;
+   line-height: 1.9;      
+ }
+
+ .features .current{
+   color: var(--accent-color);
+ }
+ /* styles footer*/
+
+ .footer {
+   background-color: #2F303A;
+ }
+ .adress-list a {
+   text-decoration: none;
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.71;
+   color: #FFFFFF;
+ }
+
+ .accentes {
+   color: #FFFFFF;
+ }
+
+ .adress-list .current {
+   color: var(--accent-color);
+ }
