@@ -206,14 +206,22 @@ ul {
    color: var(--primary-white-color);
 }
 
-.portfolio-filters .filters-button:hover {
+.filters-button:hover {
    background-color: var(--accent-color);
    color: var(--primary-white-color);
 }
 
-.portfolio-filters .filters-button:focus {
+.filters-button:focus:hover {
+   color: var(--primary-white-color);
+}
+
+.filters-button:focus {
    color: var(--accent-color);
 }
+
+
+
+
 /* styles footer*/
 
 .footer {
