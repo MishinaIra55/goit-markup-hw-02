@@ -206,8 +206,8 @@ ul {
    color: var(--primary-white-color);
 }
 
-.portfolio-filters :hover,
-.portfolio-filters :focus {
+.portfolio-filters .filters-button:hover,
+.portfolio-filters .filters-button:focus {
    background-color: var(--accent-color);
    color: var(--primary-white-color);
 }
